@@ -5,7 +5,7 @@
 
 POST request in form:
    
-   ```curl -d '{"string_to_cut": "iamyourlyftdriver"}' localhost:8080```
+   ```curl -d '{"string_to_cut": string}' localhost:8080```
 
 Returns:
    
@@ -16,3 +16,11 @@ Returns:
 Usage:
    
    ```./server.py [<port>]```
+   
+Sample:
+   
+   ```curl -d '{"string_to_cut": "iamyourlyftdriver"}' localhost:8080/```
+   
+   Returns: 
+   
+   ```{"return_string": "muydv"}```
